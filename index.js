@@ -85,7 +85,7 @@ function init () {
             tooltips.push(tooltip);
         }
         var width = 400, height = 150;
-        drawSingleValueBarChart(values,labels,tooltips,'#barchart_last_visit',width,height,SINGLE_BAR_COLOR,null);
+        drawSingleValueBarChart(values,labels,tooltips,'#barchart_lastvisit',width,height,SINGLE_BAR_COLOR,null);
 
 
         // word cloud example
