@@ -9,4 +9,8 @@ Our own use cases (to date, on this project) are pretty simple and I found that 
 writing the same 30 lines of D3 code with only a half-dozen changes pertaining to the data.
 This set of wrapper functions made it super simple to deploy pie charts, bar charts, and word clouds.
 
+To run these examples in the browser without downloading them first,
+use Github's preview system:
+    http://htmlpreview.github.com/?https://github.com/gregallensworth/Charts_D3/blob/master/index.html
+
 Enjoy.
