@@ -11,6 +11,11 @@ This set of wrapper functions made it super simple to deploy pie charts, bar cha
 
 To run these examples in the browser without downloading them first,
 use Github's preview system:
-    http://htmlpreview.github.com/?https://github.com/gregallensworth/Charts_D3/blob/master/index.html
+
+http://htmlpreview.github.com/?https://github.com/gregallensworth/Charts_D3/blob/master/index.html
+
+
+Note that the tooltips functionality is done with CSS and jQuery. We use jQuery in practically
+everything we do, so this was a no-brainer. I suppose the tooltips could be done in SVG somehow...
 
 Enjoy.
