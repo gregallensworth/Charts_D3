@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en-US">
+<head profile="http://gmpg.org/xfn/11"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="language" content="en" /> 
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width; "/>
+<title>D3 Wrapper Tests</title>
+
+<!-- D3 for charting, or R2D3 for IE7-8-->
+<!--[if lte IE 8]><script type="text/javascript" src="lib/r2d3/r2d3.js"></script><![endif]-->
+<!--[if gte IE 9]><!-->
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<!--<![endif]-->
+<script type="text/javascript" src="http://www.jasondavies.com/wordcloud/d3.layout.cloud.js"></script>
+
+<!-- the D3 wrappers, and styling pertaining to the tooltips -->
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+
+<div class="graphwrapper">
+    <h1>Survey Participants by Age</h1>
+    <div id="piechart_age_of_participants"></div>
+</div>
+
+
+
+<div class="graphwrapper">
+    <h1>Most Popular Activities</h1>
+    <div id="barchart_usual_activities"></div>
+</div>
+
+
+
+<div class="graphwrapper">
+    <h1>More Activities</h1>
+    <div id="wordcloud_other_activities"></div>
+</div>
+
+
+
+</body>
+</html>
