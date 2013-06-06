@@ -1,0 +1,51 @@
+/**** for charts ****/
+
+.graphwrapper text {
+    font-family: Times New Roman;
+    fill:#666666;
+    font-size:8pt;
+}
+
+.graphwrapper .graphhover {
+    position:absolute;
+    top:0; left:0;
+
+    background-color:#DDDDDD;
+    border-radius:5px;
+    padding:5px;
+
+    font-size:8pt;
+    color:#333333;
+
+    display:inline-block;
+
+    white-space:nowrap;
+}
+
+.xaxis path {
+    stroke: white;
+    fill: white;
+}
+
+.yaxis path {
+    stroke: white;
+    fill: white;
+}
+
+
+
+/**** for chart tooltips ****/
+
+.graphwrapper {
+    position:relative;
+}
+
+.graphwrapper h1 {
+    font-size:12pt;
+    line-height:1.5em;
+
+    margin-top:0;
+    margin-bottom:0;
+}
+
+
